@@ -4,42 +4,76 @@
     <title>Landing page</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <section>
     <!--Section 1-->
-    <h1>Header Logo</h1>
-    <div>
-      <a href="#">Header link one</a>
-      <a href="#">Header link two</a>
-      <a href="#">Header link three</a>
-    </div>
-    <h2>This website is awesome</h2>
-    <p>
-      This website has some subtext that goes here under the main title. It's a
-      smaller font and the color its lower contrast
-    </p>
-    <button>Sign up</button>
-    <img src="#" />
-    <!--Section 2-->
-    <h1>Some random information</h1>
-    <img src="#" />
-    <p>This is some subtext under an illustration or image</p>
-    <img src="#" />
-    <p>this is some subtext under an illustration or image</p>
-    <img src="#" />
-    <p>this is some subtext under an illustration or image</p>
-    <img src="#" />
-    <p>this is some subtext under an illustration or image</p>
-    <!--Section 3-->
-    <p>
-      This is an inspiring quote, or testimonial from a customer. Maybe it's
-      just filling up space, or maybe people will actually read it. Who knows?
-      All I know is that it looks nice. - Thor, God of Thunder
-    </p>
-    <!--Section 4-->
-    <div>
-      <h3>Call to action it's time!</h3>
-      <p>Sign up for out product by clicking that button right over there!</p>
-      <button>Sign up</button>
-    </div>
+
+    <nav id="nav">
+      <div class="nav-1">
+        <h2>Header Logo</h2>
+      </div>
+      <div id="nav-li" class="nav-1">
+        <ul>
+          <li>Header link one</li>
+          <li>Header link two</li>
+          <li>Header link three</li>
+        </ul>
+      </div>
+    </nav>
+    <header id="header">
+      <div id="main">
+        <h1>
+          This website is <br />
+          awesome
+        </h1>
+        <p>
+          This website has some subtext that goes here under the main title.
+          <br />
+          It's a smaller font and the color is lower contrast
+        </p>
+        <a href="#"><button class="btn">Sign up</button></a>
+      </div>
+      <div id="img">
+        <img src="Deku3.jpeg" width="450px" />
+      </div>
+    </header>
+    <!--Section 2 Header-->
+  <section id="sec-2">
+	  <h2>Some random information</h2>
+	  <div id="imgs">
+		  <div class="img-list">
+		<img src="#"/>
+		<p>this is subtext <br> under an illustration <br> below</p>
+		  </div>
+		  <div class="img-list">
+			<img src="#"/>
+			<p>this is subtext <br> under an illustration <br> below image</p>
+			  </div>
+			  <div class="img-list">
+				<img src="#"/>
+				<p>this is subtext <br> under an illustration <br> below image</p>
+				  </div>
+				  <div class="img-list">
+					<img src="#"/>
+					<p>this is subtext <br> under an illustration <br> below image</p>
+					  </div>
+	  </div>
+  </section>
+  <section id="quote-sec">
+	  <blockquote>
+		  <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
+	  </blockquote>
+	  <cite>-Thor, God of Thunder</cite>
+  </section>
+  <section id="contact-us">
+	  <div id="contact">
+		  <div id="contact-info">
+			<h3>Call to action! It's time!</h3>
+			<p>Sign up for our product by clicking that button right over there!</p>
+		  </div>
+		  <div id="contact-btn">
+			  <a href="#"><button class="btn">Sign up</button></a>
+		  </div>
+	  </div>
+  </section>
   </body>
 </html>
